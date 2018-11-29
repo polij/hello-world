@@ -5,3 +5,4 @@ DT <- data.table( ID = 1:50,
                   Code = sample(LETTERS[1:4], 50, replace = T),
                   State = rep(c("Alabama","Indiana","Texas","Nevada"), 50))
 head(DT)
+#the added line
